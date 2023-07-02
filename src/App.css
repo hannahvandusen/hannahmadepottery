@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  background-color: #f8f9f4;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #252e38;
+}
+
+.link:hover {
+  background-color: #c0311f;
+  /* padding: 1%; */
+  /* padding-top: 2%; */
+  padding-bottom: 2%;
+}
+
+.sticky-top {
+  text-align: center;
+  height: 12vh;
+  background-color: #f8f9f4;
+}
+
+.button:hover {
+  background-color: #c0311f; 
+}
+
+.navigation {
+  padding-left: "5%";
+  padding-right: "5%";
+  padding-bottom: "1%";
+  text-align: center;
+  align-items: "center"; 
+  background-color: #f8f9f4;
+  opacity: "85%";
+}
+
+.media {
+  display: none;
+}
+
+.media-content {
+  display: none;
+}
+
+.custom-tag {
+  max-width: 100%;
+  height: 600px;
+}
+
+.btn-scrollTop{
+  position: fixed;
+  bottom: 40px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #c0311f;
+  right: 2%;
+  background: none;
+  border-radius: 50px;
+  padding: 0px;
+  border: none;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 650px) {
+
+  .content {
+    display: none;
+  }
+
+  .media-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Navigation */
+  .navbarbrand {
+    background-color: #c0311f;
+  }
+  .sticky-top {
+    display: none;
+  }
+
+  .media {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  /* The dropdown container */
+  .dropDown {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Dropdown button */
+  .dropbtn {
+    font-size: 16px;
+    border: none;
+    /* outline: white; */
+  }
+
+  .dropdown-content {
+    margin-top: 15px;
+    background-color: #f8f9f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: "#c2cdc0";
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 20px 0px;
+    text-decoration: none;
+    text-align: left;
+    width: 100vw;
+    text-align: center;
+    font-size: larger;
+  }
+  .dropdown-content a:hover {
+    background-color: #c0311f;
+    color: #252d2d;
+  }
+
+}
+
